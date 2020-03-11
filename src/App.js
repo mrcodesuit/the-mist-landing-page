@@ -91,8 +91,8 @@ function App() {
 			opacity: 0,
 			x: 200,
 			ease: 'expo.inOut'
-    });
-    gsap.from('.media ul li', {
+		});
+		gsap.from('.media ul li', {
 			duration: 1,
 			opacity: 0,
 			y: '-100px',
@@ -100,7 +100,6 @@ function App() {
 			delay: 3,
 			stagger: { amount: 0.25 }
 		});
-    
 	}, []);
 
 	return (

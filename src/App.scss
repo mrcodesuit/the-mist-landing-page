@@ -1,6 +1,10 @@
 * {
   margin: 0;
-  padding: 0
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
 }
 
 body {
@@ -11,6 +15,17 @@ body {
   background-position: center;
   background-size: cover;
   overflow: hidden;
+
+  @media (max-width: 414px) {
+    background-position: 26%;
+  }
+}
+
+.App {
+  position: relative;
+  max-width: 1900px;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 ul {
@@ -20,6 +35,11 @@ ul {
 .nav {
   width: 200px;
   height: 50vh;
+
+  @media (max-width: 1024px) {
+    width: 150px;
+    height: 40vh;
+  }
 }
 
 .logo {
@@ -29,6 +49,10 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media (max-width: 1024px) {
+    height: 80%;
+  }
 }
 
 .logo h1 {
@@ -36,17 +60,34 @@ ul {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 2;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
 }
 
 .logo span {
   font-size: 60px;
   line-height: 1;
+
+  @media (max-width: 1024px) {
+    font-size: 40px;
+  }
 }
 
 .menu-links {
   width: 200px;
   text-align: right;
   padding-top: 50px;
+
+  @media (max-width: 1024px) {
+    padding-top: 150px;
+  }
+
+  @media (max-width: 414px) {
+    padding-top: 50px;
+    width: 130px;
+  }
 }
 
 .menu-links ul {
@@ -60,6 +101,10 @@ ul {
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
+
+  @media (max-width: 414px) {
+    font-size: 15px;
+  }
 }
 
 .menu-links ul li:hover {
@@ -91,10 +136,27 @@ ul {
   transform: translateY(-50%);
   text-align: right;
   color: #494949;
+
+  @media (max-width: 1024px) {
+    right: 20px;
+  }
+
+  @media (max-width: 414px) {
+    width: 50%;
+    top: 15%;
+  }
 }
 
 .text .title {
   font-size: 150px;
+
+  @media (max-width: 1024px) {
+    font-size: 110px;
+  }
+
+  @media (max-width: 414px) {
+    font-size: 40px;
+  }
 }
 
 .watchnow {
@@ -104,6 +166,11 @@ ul {
   transform: translateY(-50%);
   background: #FFEB00;
   padding: 30px 180px 30px 30px;
+
+  @media (max-width: 414px) {
+    padding: 10px 30px 30px 10px;
+    top: 80%;
+  }
 }
 
 .watchnow a {
@@ -114,6 +181,8 @@ ul {
   text-transform: uppercase;
   border-bottom: 3px solid #000;
   padding-bottom: 5px;
+
+  @media (max-width: 414px) {}
 }
 
 .fa-play {
@@ -121,6 +190,10 @@ ul {
   font-size: 30px;
   margin-right: 20px;
   cursor: pointer;
+
+  @media (max-width: 414px) {
+    transform: translateY(10px);
+  }
 }
 
 .media {
@@ -137,6 +210,10 @@ ul {
   color: #494949;
   cursor: pointer;
   border-radius: 50%;
+
+  @media (max-width: 414px) {
+    padding-bottom: 0px;
+  }
 }
 
 .media ul li:hover {
@@ -153,6 +230,10 @@ ul {
   border-radius: 50%;
   margin: 0 auto;
   z-index: -1;
+
+  @media (max-width: 414px) {
+    display: none;
+  }
 }
 
 .ellipse {
@@ -282,9 +363,25 @@ ul {
 .overlay h1 {
   font-size: 100px;
   letter-spacing: 20px;
+
+  @media (max-width: 1024px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 414px) {
+    font-size: 30px;
+  }
 }
 
 .overlay span {
   font-size: 30px;
   letter-spacing: 3px;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 414px) {
+    font-size: 15px;
+  }
 }
