@@ -203,8 +203,16 @@ ul {
   padding: 20px;
 }
 
+.media ul {
+  display: flex;
+}
+
 .media ul li {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
   padding: 20px;
   font-size: 20px;
   color: #494949;
