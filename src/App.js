@@ -106,8 +106,8 @@ function App() {
 		<div className='App'>
 			{/* overlay */}
 			<div className='overlay'>
-				<h1>Reindeer</h1>
-				<span>snow life</span>
+				<h1>The Mist</h1>
+				<span>man life</span>
 			</div>
 			{/*  */}
 
@@ -116,10 +116,10 @@ function App() {
 					<div className='logo'>
 						<h1>
 							<span>
-								rein <br /> deer
+								The <br /> mist
 							</span>
 							<br />
-							snow life
+							man life
 						</h1>
 					</div>
 				</div>
@@ -127,7 +127,7 @@ function App() {
 				<div className='menu-links'>
 					<ul>
 						<li>home.</li>
-						<li>snow life.</li>
+						<li>man life.</li>
 						<li>contact.</li>
 					</ul>
 				</div>
@@ -136,7 +136,7 @@ function App() {
 			</div>
 
 			<div className='text'>
-				<div className='title'>reindeer</div>
+				<div className='title'>The mist</div>
 				<p>
 					Mauris elementum, dui ac sagittis <br /> cursus, libero elit sodales
 					odio
